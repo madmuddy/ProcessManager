@@ -23,5 +23,7 @@ namespace PrcoessManager
         public static List<string> Process;
         public static List<string> Process_Dir;
         public static List<string> E_Process;
+
+        public static bool asAdmin = false;
     }
 }

@@ -19,6 +19,9 @@ namespace PrcoessManager
                     procInfo.FileName = Consts.Process[i];
                     procInfo.WorkingDirectory = Consts.Process_Dir[i];
 
+                    if(Consts.asAdmin)
+                        procInfo.Verb = "runas";
+
                     Process proc = new Process();
                     proc.StartInfo = procInfo;
                     proc.Start();

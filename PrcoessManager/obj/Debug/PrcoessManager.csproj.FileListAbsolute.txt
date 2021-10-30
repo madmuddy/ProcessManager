@@ -3,4 +3,3 @@ C:\Users\Malik\source\repos\ProcessManager\PrcoessManager\bin\Debug\PrcoessManag
 C:\Users\Malik\source\repos\ProcessManager\PrcoessManager\bin\Debug\PrcoessManager.pdb
 C:\Users\Malik\source\repos\ProcessManager\PrcoessManager\obj\Debug\PrcoessManager.exe
 C:\Users\Malik\source\repos\ProcessManager\PrcoessManager\obj\Debug\PrcoessManager.pdb
-C:\Users\Malik\source\repos\ProcessManager\PrcoessManager\obj\Debug\PrcoessManager.csprojResolveAssemblyReference.cache

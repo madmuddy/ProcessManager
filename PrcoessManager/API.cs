@@ -39,6 +39,7 @@ namespace PrcoessManager
                 Consts.Process = conf.Processes;
                 Consts.E_Process = conf.E_Processes;
                 Consts.Process_Dir = conf.Process_Dir;
+                Consts.asAdmin = conf.asAdmin;
 
                 Reader.LoadData();
                 Core.StartProcess();
@@ -98,6 +99,7 @@ namespace PrcoessManager
                 Consts.Process = conf.Processes;
                 Consts.E_Process = conf.E_Processes;
                 Consts.Process_Dir = conf.Process_Dir;
+                Consts.asAdmin = conf.asAdmin;
 
                 Reader.LoadData();
                 Core.EleminateProcess();
@@ -138,6 +140,7 @@ namespace PrcoessManager
             public List<string> Processes;
             public List<string> E_Processes;
             public List<string> Process_Dir;
+            public bool asAdmin;
         }
     }
 }
